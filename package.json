@@ -1,0 +1,10 @@
+{
+  "name": "quiz-builder",
+  "version": "1.0.0",
+  "description": "Quiz Builder Application",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
