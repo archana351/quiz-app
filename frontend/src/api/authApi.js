@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL =
-  process.env.REACT_APP_API_URL || 'https://quiz-app-backend-o4nv.onrender.com/api';;
+  process.env.REACT_APP_API_URL || 'https://quiz-app-backend-o4nv.onrender.com/api';
 
 const authApi = axios.create({
   baseURL: `${API_BASE_URL}/auth`,
