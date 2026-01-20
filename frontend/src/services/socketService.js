@@ -8,7 +8,7 @@ class SocketService {
   // Initialize Socket.IO connection
   connect() {
     if (!this.socket) {
-      this.socket = io('http://localhost:5000', {
+      this.socket = io('https://quiz-app-backend-o4nv.onrender.com', {
         reconnection: true,
         reconnectionDelay: 1000,
         reconnectionDelayMax: 5000,
