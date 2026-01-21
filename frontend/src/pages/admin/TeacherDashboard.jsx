@@ -81,7 +81,7 @@ const TeacherDashboard = () => {
     setError('');
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('http://localhost:5000/api/quizzes/my-quizzes', {
+      const res = await fetch('https://quiz-app-backend-o4nv.onrender.com/api/quizzes/my-quizzes', {
         headers: {
           'Authorization': `Bearer ${token}`,
         },
