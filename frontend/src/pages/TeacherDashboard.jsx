@@ -25,7 +25,7 @@ const TeacherDashboard = () => {
         console.log('🔐 Token exists:', !!token);
 
         const response = await axios.get(
-          `http://localhost:5000/api/quiz-attempts/${quizId}`,
+          `https://quiz-app-backend-o4nv.onrender.com/api/quiz-attempts/${quizId}`,
           {
             headers: { Authorization: `Bearer ${token}` },
           }
