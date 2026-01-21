@@ -19,7 +19,7 @@ const TeacherQuizResults = () => {
         console.log("🔑 Token exists:", !!token);
 
         const response = await axios.get(
-          `http://localhost:5000/api/quiz-attempts/quiz/${quizId}`,
+          `https://quiz-app-backend-o4nv.onrender.com/api/quiz-attempts/quiz/${quizId}`,
           {
             headers: { Authorization: `Bearer ${token}` },
           }
