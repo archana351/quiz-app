@@ -3,6 +3,7 @@
 A MERN stack web application for creating and taking quizzes with built-in cheating detection using machine learning.
 
 ---
+The app will open at https://quiz-app-frontend-u16d.onrender.com/
 
 ## Features
 
@@ -364,7 +365,6 @@ cd ml
 python train_model.py
 ```
 
-The app will open at https://quiz-app-frontend-u16d.onrender.com/
 
 ---
 
